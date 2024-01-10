@@ -2,6 +2,7 @@ import { LightningElement, wire } from 'lwc';
 import getOpportunities from '@salesforce/apex/GetOpportunity.getOpportunities';
 import updateOpportunity from '@salesforce/apex/GetOpportunity.updateOpportunity';
 
+
 const columns = [
     {label:'Name', fieldName:'Name',editable:true},
     {label:'Close Date', fieldName:'CloseDate',editable:true},
